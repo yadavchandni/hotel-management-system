@@ -1,0 +1,542 @@
+@media(max-width: 1500px) and (min-width: 1000px)
+{
+#full{
+	width: 100%;
+	height: auto;
+	margin-top: -16px;
+	margin-left: -6px;
+}
+
+
+#header{
+	width :100%;
+	height:100px;
+	
+}
+
+#logo{
+	width: 30%;
+	height: 100px;
+	float:left;
+}
+
+.nav{
+	width:70%;
+	height:100px;
+	float:left;
+
+
+}
+
+
+ul li{
+	list-style:none;
+	float:left;
+	width:12%;
+	height:50px;
+	line-height:106px;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+	color:blue;
+	text-align:center;
+}
+
+h1{
+	padding:10px;
+}
+
+#f1{
+	width: 100%;
+	height: 150px;
+	
+}
+
+
+
+.row{
+	width:20%;
+	height:50px; 
+	
+}
+.data{
+	width:20%;
+	height:50px; 
+	margin-left:25px;
+	text-align: center;
+	border:1px solid black;
+	padding:5px;
+
+}
+
+.choose{
+	margin-left: 56px;
+}
+
+
+.button{
+	width:50px;
+	height:50px;
+}
+
+
+
+#welcome_image img{
+width:100%;
+
+}
+
+
+
+#welcome_image p
+
+{
+	margin-top: -400px;
+color: #0e0820ed;
+font-size: 22px;
+
+}
+
+
+.our_brands img
+
+{
+	width:33%;
+}
+
+
+}
+
+
+
+
+
+/*-------------------this is the css of the reg_form_page.php---*/
+
+
+#reg_from{
+	margin-left: 415px;
+font-size: 15px;
+margin-top: -418px;
+
+	
+}
+
+/* for input */
+
+.contain{
+	margin-left: 109px;
+	font-size: 20px;
+	border: 1px solid black;
+
+}
+
+/*----------for td tag-------------------*/
+
+td{
+	font-size:20px;
+	height: 100%;
+
+}
+
+#submit{
+	margin-left: 109px;
+	font-size: 20px;
+	border: 15px solid black;
+	opacity: 0.5;
+
+
+}
+
+
+
+/*================= this is css for contact us page (third page) ===============*/
+
+
+
+#contact_us{
+
+background-color: rgba(223, 32, 32, 0.02);
+color: #0f043c;
+margin-top: -500px;
+margin-left: 165px;
+}
+
+
+
+
+/*====================== css for index2.php ================================*/
+
+
+.admin_login{
+	font-size: 27px;
+	height: 100%;
+	padding:8px;
+}
+
+.submit{
+	width: 37%;
+	font-size: 25px;
+	height: 45%;
+}
+
+
+.input_box{
+	padding: 8px;
+	padding-left: 54px;
+	margin-left: 61px;
+}
+
+
+
+/*===================  room booking ==============================*/
+
+
+.admin_data
+
+{
+
+
+font-size:  138%;
+
+padding: 15px;
+
+padding-left: 5px;
+}
+
+
+
+
+
+
+.login-btn{
+
+	width: 70%;
+
+	padding: 5px;
+
+	font-size:22px;
+
+
+	background-color:black;
+
+
+	color:red;
+
+
+	margin-left:35px;
+}
+
+
+
+/*=============================== term-and-condition ======================================*/
+
+
+.term-and-condition
+
+{
+
+	font-size: 20px;
+
+	 margin-left: 10px; 
+
+	 background-color: white;
+
+	 margin-right: 70px;
+
+	 height: 70%;
+
+	 text-align: center;
+
+	 padding-top: 8px;
+	 
+}
+
+
+.list-your-property{
+
+
+	background-color: grey;
+
+
+	color:white;
+
+
+	font-size: 30px;
+
+	 margin-left: 10px; 
+
+	 margin-right: 70px;
+
+
+	 text-align: center;
+
+}
+
+
+/*=========================== css for  login form ==========================*/
+
+
+.login-table{
+
+	margin-top: -530px; 
+
+	color: black; 
+
+	height: 30% ;
+
+	 width: 30%;
+
+
+}
+
+
+
+/*============================= css for  setting =============================*/
+
+.setting-body{
+
+	background-image: url("../image/setting_bg.jpg");
+
+	width: 100%;
+
+
+	background-size: cover;	
+
+	
+
+
+
+
+}
+
+/* ------------------------transparent background ------------------------------------ */
+
+.setting-heading
+
+{
+
+	text-align: center;
+
+	text-decoration-style: italic;
+
+
+	max-width: 200px;
+
+	position: relative;
+
+	background: rgba(255,255,255,.3);
+
+	box-shadow:  0 5px 15px;
+
+	margin-left: 460px;
+
+	margin-top: 50px;
+
+	
+}
+
+
+
+.setting-table{
+
+
+	position: relative;
+
+	background: rgba(255,255,255,.3);
+
+	box-shadow:  0 5px 15px;
+
+	margin-left: -190px;
+
+	margin-top: 50px;
+
+
+}
+
+
+#setting-submit-btn{
+
+	width: 70%;
+
+	height: 80%;
+	
+	color: red;
+
+	background-color: #000;
+
+	padding: 4px;
+
+
+	font-size: 20px;
+}
+
+
+/*============================== ROOM DETAILS ==============================*/
+
+
+.details-body-bg{
+
+
+	background-image: url("../image/room_mgm_bg.jpg");
+
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+.room-details-heading{
+
+
+
+	text-align: center;
+
+	
+
+
+	max-width: 300px;
+
+	position: relative;
+
+	background: rgba(255,255,255,.4);
+
+	box-shadow:  0 5px 15px;
+
+	margin-left: 500px;
+
+	margin-top: 90px;
+
+	width: 70%;
+
+
+
+
+}
+
+
+
+.table-format-room-details{
+
+	position: relative;
+
+	background: rgba(255,255,255,.4);
+
+	box-shadow:  0 15px 15px;
+
+
+	margin-top: -40px;
+
+	max-width: 800px;
+}
+
+
+
+/*==================================== ahome page ==================================*/
+
+
+
+.ahome-body-bg{
+
+		background-image: url("../image/ahome_bg.jpg");
+
+
+		width: 100%;
+
+		height: 100%;
+
+
+}
+
+
+.table_header_page{
+
+	position: relative;
+
+	background: rgba(255,255,255,.4);
+
+	box-shadow:  0 15px 15px;
+
+
+	margin-top: 50px;
+
+
+	padding: 10px;
+
+
+	width: 70%;
+
+	
+
+
+
+}
+
+
+/*========================= logout btn ===========================================*/
+
+
+
+#logout-btn{
+
+	width: 30%
+
+	height: 80%;
+	
+	color: red;
+
+	background-color: #000;
+
+	padding: 4px;
+
+
+	font-size: 20px;
+
+	text-align: center;
+
+
+}
+
+
+
+
+/*=======================================================*/
+
+
+.table-contact{
+
+
+	
+	 text-align: center; 
+
+	 margin-top: 90px;
+
+
+
+	position: relative;
+
+	background: rgba(255,255,255,.3);
+
+	box-shadow:  0 5px 15px;
+
+	margin-left: 30px;
+
+	margin-right: -30px;
+
+	padding:20px;
+
+
+	width: 100%;
+
+
+
+}
+
+
+
+

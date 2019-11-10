@@ -1,0 +1,454 @@
+
+#full{
+	width: 100%;
+
+	height: auto;
+
+	margin-top: -16px;
+
+	margin-left: -6px;
+}
+
+
+
+#header
+
+{
+	width :100%;
+
+
+	height:100px;
+	
+}
+
+
+
+
+#logo
+
+
+{
+	width: 30%;
+
+
+	height: 100px;
+
+	float:left;
+
+}
+
+
+
+
+.nav
+
+
+{
+	width:70%;
+
+
+	height:100px;
+
+
+	float:left;
+
+
+}
+
+
+
+
+ul li
+
+
+{
+	list-style:none;
+
+	float:left;
+
+	width:12%;
+
+	height:50px;
+
+	line-height:90px;
+
+	text-align:center;
+
+}
+
+
+
+a
+
+
+{
+	text-decoration:none;
+
+	color:blue;
+
+	text-align:center;
+}
+
+
+
+h1
+
+{
+	padding:10px;
+
+}
+
+
+
+#f1
+
+
+{
+	width: 100%;
+
+	height: 150px;
+	
+}
+
+
+
+
+.row
+
+{
+	width:20%;
+
+
+	height:50px; 
+
+
+	font-size:23px;
+	
+}
+
+
+.data
+
+
+{
+	width:20%;
+
+	height:50px;
+
+	margin-left:25px;
+
+	text-align: center;
+
+	border:1px solid black;
+
+	padding:5px;
+
+}
+
+
+
+.choose
+
+{
+	margin-left: 56px;
+
+	width:50%;
+
+	height: 50%;
+
+
+	text-align: center;
+
+
+
+	color: red;
+
+}
+
+
+.button
+
+
+{
+	width:50px;
+
+
+	height:50px;
+}
+
+
+
+
+/*========================= slider image =========================*/
+
+
+#index_img
+
+{
+
+	width: 100%;
+
+
+	height:98%;
+
+
+	background-image: url("../image/hotel_index_page.jpg");
+
+
+	animation: slide  15s infinite;
+
+
+}
+
+
+@keyframes slide{
+
+
+	20%{
+
+		background-image: url("../image/index_slider.jpg");
+
+		background-size: cover;
+
+
+
+	}
+
+
+	40%{
+
+		background-image: url("../image/index_slider1.jpg");
+
+		background-size: cover;
+
+
+
+	}
+
+
+
+	60%{
+
+		background-image: url("../image/room_mgm_bg.jpg");
+
+		background-size: cover;
+
+
+
+	}
+
+
+
+	80%{
+
+		background-image: url("../image/rms _booking_bg.jpg");
+
+		background-size: cover;
+
+
+
+	}
+
+
+	100%{
+
+		background-image: url("../image/setting_bg.jpg");
+
+		background-size: cover;
+
+
+
+	}
+
+
+
+}
+
+
+
+
+#welcome_image img
+
+
+{
+
+width:100%;
+
+}
+
+
+
+#welcome_image p
+
+
+{
+	margin-top: -400px;
+
+
+	color: #0e0820ed;
+
+	font-size: 22px;
+
+}
+
+
+
+.our_brands img
+
+{
+	width:33%;
+
+}
+
+
+
+
+
+
+
+
+/*-------------------this is the css of the reg_form_page.php---*/
+
+
+
+
+#reg_from1
+
+
+{
+	
+margin-left: 350px;
+
+font-size: 19px;
+
+margin-top: -459px;
+
+
+}
+
+
+
+/* for input tag */
+
+
+
+.contain
+
+{
+
+	margin-left: 109px;
+
+
+	font-size: 20px;
+
+
+	border: 1px solid black;
+
+}
+
+
+
+
+
+/*----------for td tag-------------------*/
+
+
+
+td
+
+
+{
+
+	font-size:20px;
+
+	height: 100%;
+
+}
+
+
+
+
+#submit
+
+
+{
+	margin-left: 100px;
+
+	margin-top: 20px;
+
+	font-size: 20px;
+
+	border: 8px solid black;
+
+	opacity: 1.2;
+
+
+}
+
+
+
+/* ============= this is css for contact us page (third page) ====================*/
+
+
+
+
+#contact_us  
+
+
+{
+
+background-color: rgba(223, 32, 32, 0.02);
+
+color: #0f043c;
+
+margin-top: -500px;
+
+
+margin-left: 165px;
+
+
+
+}
+
+.li a:hover {
+  background-color: #000;
+}
+
+
+
+/* this is css for room_mgm */
+
+
+
+
+#room_mgm img 
+
+
+
+{
+	width:100%;
+	
+	height: 70%;
+}
+
+
+
+
+
+/*=========================== more contains for brands like paris taj etc==============================*/
+
+
+.more-contains{
+
+
+
+	font-size:25px;
+
+
+	color:blue;
+
+
+	
+}
+
+
